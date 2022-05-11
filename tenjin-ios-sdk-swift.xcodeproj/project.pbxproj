@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11D9D68433B42B343CACB218 /* Pods_tenjin_ios_sdk_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C04574A13E6E373A95C350F /* Pods_tenjin_ios_sdk_swift.framework */; };
 		F46D19C72096E59100BFC160 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46D19C62096E59100BFC160 /* AppDelegate.swift */; };
 		F46D19C92096E59100BFC160 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46D19C82096E59100BFC160 /* ViewController.swift */; };
 		F46D19CC2096E59100BFC160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46D19CA2096E59100BFC160 /* Main.storyboard */; };
@@ -19,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A88A12859BEBC2D395343CB /* Pods-tenjin-ios-sdk-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tenjin-ios-sdk-swift.release.xcconfig"; path = "Target Support Files/Pods-tenjin-ios-sdk-swift/Pods-tenjin-ios-sdk-swift.release.xcconfig"; sourceTree = "<group>"; };
+		5C04574A13E6E373A95C350F /* Pods_tenjin_ios_sdk_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tenjin_ios_sdk_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCFCF4C56E525325232A846 /* Pods-tenjin-ios-sdk-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tenjin-ios-sdk-swift.debug.xcconfig"; path = "Target Support Files/Pods-tenjin-ios-sdk-swift/Pods-tenjin-ios-sdk-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		F46D19C32096E59100BFC160 /* tenjin-ios-sdk-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tenjin-ios-sdk-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46D19C62096E59100BFC160 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F46D19C82096E59100BFC160 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +47,7 @@
 				F46D19E22096E8D900BFC160 /* iAd.framework in Frameworks */,
 				F46D19E02096E8D100BFC160 /* StoreKit.framework in Frameworks */,
 				F46D19DE2096E8C800BFC160 /* AdSupport.framework in Frameworks */,
+				11D9D68433B42B343CACB218 /* Pods_tenjin_ios_sdk_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +60,7 @@
 				F46D19C52096E59100BFC160 /* tenjin-ios-sdk-swift */,
 				F46D19C42096E59100BFC160 /* Products */,
 				F46D19DC2096E8C800BFC160 /* Frameworks */,
+				FF5CB320AD9C14415A6CBB6B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +94,18 @@
 				F46D19E12096E8D900BFC160 /* iAd.framework */,
 				F46D19DF2096E8D100BFC160 /* StoreKit.framework */,
 				F46D19DD2096E8C800BFC160 /* AdSupport.framework */,
+				5C04574A13E6E373A95C350F /* Pods_tenjin_ios_sdk_swift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF5CB320AD9C14415A6CBB6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FCFCF4C56E525325232A846 /* Pods-tenjin-ios-sdk-swift.debug.xcconfig */,
+				4A88A12859BEBC2D395343CB /* Pods-tenjin-ios-sdk-swift.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F46D19D52096E59200BFC160 /* Build configuration list for PBXNativeTarget "tenjin-ios-sdk-swift" */;
 			buildPhases = (
+				5A038E4A9AAF074D3ECB0AC4 /* [CP] Check Pods Manifest.lock */,
 				F46D19BF2096E59100BFC160 /* Sources */,
 				F46D19C02096E59100BFC160 /* Frameworks */,
 				F46D19C12096E59100BFC160 /* Resources */,
+				4CE5BC330A99B2EF6C3A0C23 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,6 +175,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CE5BC330A99B2EF6C3A0C23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tenjin-ios-sdk-swift/Pods-tenjin-ios-sdk-swift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tenjin-ios-sdk-swift/Pods-tenjin-ios-sdk-swift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tenjin-ios-sdk-swift/Pods-tenjin-ios-sdk-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A038E4A9AAF074D3ECB0AC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tenjin-ios-sdk-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F46D19BF2096E59100BFC160 /* Sources */ = {
@@ -244,7 +304,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -299,7 +362,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -323,8 +390,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/tenjin-ios-sdk-swift",
 				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tenjin.tenjin-ios-sdk-swift";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tenjin.tenjin-ios-sdk-swift-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "tenjin-ios-sdk-swift/TenjinSDK-Swift-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -347,8 +418,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/tenjin-ios-sdk-swift",
 				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tenjin.tenjin-ios-sdk-swift";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tenjin.tenjin-ios-sdk-swift-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "tenjin-ios-sdk-swift/TenjinSDK-Swift-Header.h";
 				SWIFT_VERSION = 5.0;

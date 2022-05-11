@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5BC46914A3617E8E5EA6E625B5DD1684 /* AppLovinSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1137672E97496FACD0DD9E48E86C50EF /* Build configuration list for PBXAggregateTarget "AppLovinSDK" */;
+			buildPhases = (
+				0767D10B049CB169F35806FA0DC22F33 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = AppLovinSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		91642070D110C7B25AD514266EFAF549 /* Pods-tenjin-ios-sdk-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8E668D9D06DB0D797B47D0652EB10D /* Pods-tenjin-ios-sdk-swift-dummy.m */; };
+		B49C3D0467E7448C3FD3399E1413BBAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C39DD5E9993AF93407FAE2218DCA0F23 /* Pods-tenjin-ios-sdk-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8FD9036FA34F82BCC42C2BDED50DC86 /* Pods-tenjin-ios-sdk-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F5A5747C56C2E4AB63DC0DC3A3A7769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC46914A3617E8E5EA6E625B5DD1684;
+			remoteInfo = AppLovinSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012B7616B6F157BB9953F87E1C454741 /* AppLovinSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppLovinSDK.debug.xcconfig; sourceTree = "<group>"; };
+		02B50EE110DB2BB9BBF54BCD7032CC80 /* AppLovinSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppLovinSDK.xcframework; path = "applovin-ios-sdk-11.3.2/AppLovinSDK.xcframework"; sourceTree = "<group>"; };
+		05D5DE0F57210DC4789E6DD8409E7F0E /* Pods-tenjin-ios-sdk-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenjin-ios-sdk-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		3A09165437C167BA12C56909D42C2950 /* Pods-tenjin-ios-sdk-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenjin-ios-sdk-swift-Info.plist"; sourceTree = "<group>"; };
+		3B2F80756A708AE8E71EFBF01531CF56 /* AppLovinSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AppLovinSDKResources.bundle; path = "applovin-ios-sdk-11.3.2/AppLovinSDKResources.bundle"; sourceTree = "<group>"; };
+		42889DC4BE4909B9AB814A4BE1A02ECF /* Pods-tenjin-ios-sdk-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenjin-ios-sdk-swift.release.xcconfig"; sourceTree = "<group>"; };
+		4E78126A18959D68E29E363A0B7EFFA4 /* Pods-tenjin-ios-sdk-swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenjin-ios-sdk-swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9C11E89D02148C8F313E9883412FF59F /* Pods-tenjin-ios-sdk-swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-tenjin-ios-sdk-swift"; path = Pods_tenjin_ios_sdk_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB8E668D9D06DB0D797B47D0652EB10D /* Pods-tenjin-ios-sdk-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tenjin-ios-sdk-swift-dummy.m"; sourceTree = "<group>"; };
+		BEBC9EB082D99B76480E13A967631A08 /* Pods-tenjin-ios-sdk-swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tenjin-ios-sdk-swift-resources.sh"; sourceTree = "<group>"; };
+		CF43ECD0B149A3AA129427E1551B5485 /* AppLovinSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppLovinSDK.release.xcconfig; sourceTree = "<group>"; };
+		DE3DB67F0608CEBF11D903C33BC20C74 /* Pods-tenjin-ios-sdk-swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tenjin-ios-sdk-swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8FD9036FA34F82BCC42C2BDED50DC86 /* Pods-tenjin-ios-sdk-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tenjin-ios-sdk-swift-umbrella.h"; sourceTree = "<group>"; };
+		F30F6A2E417E27B3BB51E2044BD96147 /* Pods-tenjin-ios-sdk-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tenjin-ios-sdk-swift.modulemap"; sourceTree = "<group>"; };
+		FB4643B80F90B8A1078F2F6A8DA2D7AB /* AppLovinSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AppLovinSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70AC829F9DEB95D36DE0C2D918E07193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49C3D0467E7448C3FD3399E1413BBAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266C00920FE70D77B00D064ACD11D7BC /* AppLovinSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A35F790D77116ADCAB89EE72A3589637 /* Frameworks */,
+				819E2D04DA0EE8632AE87A86665A2173 /* Resources */,
+				7BBC213093491214CECF9861B3FA4323 /* Support Files */,
+			);
+			name = AppLovinSDK;
+			path = AppLovinSDK;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6918EBA92E05147F4DBFBCB6E189D1C6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0578CB475C389F6E4F70397D4362288 /* Pods-tenjin-ios-sdk-swift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7BBC213093491214CECF9861B3FA4323 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB4643B80F90B8A1078F2F6A8DA2D7AB /* AppLovinSDK-xcframeworks.sh */,
+				012B7616B6F157BB9953F87E1C454741 /* AppLovinSDK.debug.xcconfig */,
+				CF43ECD0B149A3AA129427E1551B5485 /* AppLovinSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppLovinSDK";
+			sourceTree = "<group>";
+		};
+		819E2D04DA0EE8632AE87A86665A2173 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B2F80756A708AE8E71EFBF01531CF56 /* AppLovinSDKResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		93E6472027A197B32C399F19EF255366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C11E89D02148C8F313E9883412FF59F /* Pods-tenjin-ios-sdk-swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A35F790D77116ADCAB89EE72A3589637 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02B50EE110DB2BB9BBF54BCD7032CC80 /* AppLovinSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0578CB475C389F6E4F70397D4362288 /* Pods-tenjin-ios-sdk-swift */ = {
+			isa = PBXGroup;
+			children = (
+				F30F6A2E417E27B3BB51E2044BD96147 /* Pods-tenjin-ios-sdk-swift.modulemap */,
+				DE3DB67F0608CEBF11D903C33BC20C74 /* Pods-tenjin-ios-sdk-swift-acknowledgements.markdown */,
+				4E78126A18959D68E29E363A0B7EFFA4 /* Pods-tenjin-ios-sdk-swift-acknowledgements.plist */,
+				BB8E668D9D06DB0D797B47D0652EB10D /* Pods-tenjin-ios-sdk-swift-dummy.m */,
+				3A09165437C167BA12C56909D42C2950 /* Pods-tenjin-ios-sdk-swift-Info.plist */,
+				BEBC9EB082D99B76480E13A967631A08 /* Pods-tenjin-ios-sdk-swift-resources.sh */,
+				E8FD9036FA34F82BCC42C2BDED50DC86 /* Pods-tenjin-ios-sdk-swift-umbrella.h */,
+				05D5DE0F57210DC4789E6DD8409E7F0E /* Pods-tenjin-ios-sdk-swift.debug.xcconfig */,
+				42889DC4BE4909B9AB814A4BE1A02ECF /* Pods-tenjin-ios-sdk-swift.release.xcconfig */,
+			);
+			name = "Pods-tenjin-ios-sdk-swift";
+			path = "Target Support Files/Pods-tenjin-ios-sdk-swift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F518C3671894B7D6C8BEAB9DDA9099B1 /* Pods */,
+				93E6472027A197B32C399F19EF255366 /* Products */,
+				6918EBA92E05147F4DBFBCB6E189D1C6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F518C3671894B7D6C8BEAB9DDA9099B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				266C00920FE70D77B00D064ACD11D7BC /* AppLovinSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AFF731C02551157BD4037CC768F354F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39DD5E9993AF93407FAE2218DCA0F23 /* Pods-tenjin-ios-sdk-swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CCD8D162B5543152B3C62AB767C555CF /* Pods-tenjin-ios-sdk-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B07B84396500743580414AEE4A080B9 /* Build configuration list for PBXNativeTarget "Pods-tenjin-ios-sdk-swift" */;
+			buildPhases = (
+				AFF731C02551157BD4037CC768F354F9 /* Headers */,
+				2D0FCDE706BC90D549D8E8D6D52B3C72 /* Sources */,
+				70AC829F9DEB95D36DE0C2D918E07193 /* Frameworks */,
+				B90294B1942D26A3843051ED09B9883B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1063C7937C23A55285027BA37BA71931 /* PBXTargetDependency */,
+			);
+			name = "Pods-tenjin-ios-sdk-swift";
+			productName = Pods_tenjin_ios_sdk_swift;
+			productReference = 9C11E89D02148C8F313E9883412FF59F /* Pods-tenjin-ios-sdk-swift */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 93E6472027A197B32C399F19EF255366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC46914A3617E8E5EA6E625B5DD1684 /* AppLovinSDK */,
+				CCD8D162B5543152B3C62AB767C555CF /* Pods-tenjin-ios-sdk-swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B90294B1942D26A3843051ED09B9883B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0767D10B049CB169F35806FA0DC22F33 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AppLovinSDK/AppLovinSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AppLovinSDK/AppLovinSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AppLovinSDK/AppLovinSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0FCDE706BC90D549D8E8D6D52B3C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91642070D110C7B25AD514266EFAF549 /* Pods-tenjin-ios-sdk-swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1063C7937C23A55285027BA37BA71931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppLovinSDK;
+			target = 5BC46914A3617E8E5EA6E625B5DD1684 /* AppLovinSDK */;
+			targetProxy = 4F5A5747C56C2E4AB63DC0DC3A3A7769 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		133D3F0DD5EC7C1ACCCA6DE6474A7C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF43ECD0B149A3AA129427E1551B5485 /* AppLovinSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15415A831835ACECECCE9AD0AB61F177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42889DC4BE4909B9AB814A4BE1A02ECF /* Pods-tenjin-ios-sdk-swift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tenjin-ios-sdk-swift/Pods-tenjin-ios-sdk-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tenjin-ios-sdk-swift/Pods-tenjin-ios-sdk-swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		909E318C2833FC1866DAC22A9CB518A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D5DE0F57210DC4789E6DD8409E7F0E /* Pods-tenjin-ios-sdk-swift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tenjin-ios-sdk-swift/Pods-tenjin-ios-sdk-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tenjin-ios-sdk-swift/Pods-tenjin-ios-sdk-swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98498EE3A2793DC3C113702F5E2FB40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FBB4305377262D0A38AA25406BD17EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 012B7616B6F157BB9953F87E1C454741 /* AppLovinSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFB17281C48AE863A31E46072D514569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1137672E97496FACD0DD9E48E86C50EF /* Build configuration list for PBXAggregateTarget "AppLovinSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB4305377262D0A38AA25406BD17EAA /* Debug */,
+				133D3F0DD5EC7C1ACCCA6DE6474A7C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B07B84396500743580414AEE4A080B9 /* Build configuration list for PBXNativeTarget "Pods-tenjin-ios-sdk-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909E318C2833FC1866DAC22A9CB518A0 /* Debug */,
+				15415A831835ACECECCE9AD0AB61F177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98498EE3A2793DC3C113702F5E2FB40A /* Debug */,
+				FFB17281C48AE863A31E46072D514569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
